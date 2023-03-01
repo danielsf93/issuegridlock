@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <primary_locale>pt_BR</primary_locale>
+  <plugin
+    id="issuegridlock"
+    system="3.2.1-1"
+    package="issuegridlock"
+    directory="issuegridlock"
+    name="issuegridlock"
+    description="issuegridlock"
+    version="1.0.0"
+    date="2023-03-01"
+    author="STI FFLCH and ABCD USP"
+    email="sti.fflch@usp.br"
+    url="https://github.com/danielsf93"
+  >
+  </plugin>
+</manifest>
