@@ -50,3 +50,10 @@ function issueToc($args, $request) {
 		$templateMgr->assign('issue', $issue);
 		return new JSONMessage(true, $templateMgr->fetch('controllers/grid/issues/issueToc.tpl'));
 	}
+
+
+
+verificar https://github.com/pkp/ojs/blob/ojs-stable-3_1_1/templates/frontend/objects/issue_toc.tpl#L96-L115
+
+
+também controllers/grid/toc/TocGridHandler.inc.php
