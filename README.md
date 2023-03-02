@@ -56,4 +56,4 @@ function issueToc($args, $request) {
 verificar https://github.com/pkp/ojs/blob/ojs-stable-3_1_1/templates/frontend/objects/issue_toc.tpl#L96-L115
 
 
-também controllers/grid/toc/TocGridHandler.inc.php
+também controllers/grid/toc/TocGridHandler.inc.php:96, 137, 144.
