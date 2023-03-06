@@ -14,7 +14,7 @@
 		$('#issueTocForm').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
 	{rdelim});
 </script>
-<h3>eu estou aqui</h3>
+<h3>Somente modificações na ordem dos arquivos serão salvas.</h3>
 
 {capture assign=issueTocGridUrl}{url router=$smarty.const.ROUTE_COMPONENT component="grid.toc.TocGridHandler" op="fetchGrid" issueId=$issue->getId() escape=false}{/capture}
 {load_url_in_div id="issueTocGridContainer" url=$issueTocGridUrl}
