@@ -57,3 +57,5 @@ verificar https://github.com/pkp/ojs/blob/ojs-stable-3_1_1/templates/frontend/ob
 
 
 também controllers/grid/toc/TocGridHandler.inc.php:96, 137, 144.
+
+ver https://ajnyga.gitbooks.io/ojs3-hooks/content/chapter1.html
