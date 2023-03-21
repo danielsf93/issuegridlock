@@ -10,18 +10,21 @@ class issuegridlock extends GenericPlugin {
         $success = parent::register($category, $path);
             if ($success && $this->getEnabled()) {
     HookRegistry::register('TemplateResource::getFilename', array($this, '_overridePluginTemplates'));
-    HookRegistry::register('TemplateResource::getFilename', array($this, '_overrideOrderCategoryGridItemsFeature'));
+	HookRegistry::register('TemplateResource::getFilename', array($this, '_overridePluginTemplatesdois'));
+
 }
 
         return $success;
     }
 
-public function _overrideOrderCategoryGridItemsFeature($hookName, $args) {
+
+
+public function _overridePluginTemplatesdois($hookName, $args) {
     $templatePath = $args[0];
-    if ($templatePath === 'lib/pkp/classes/controllers/grid/feature/OrderCategoryGridItemsFeature.inc.php') {
-        $args[0] = 'plugins/generic/issuegridlock/lib/pkp/classes/controllers/grid/feature/OrderCategoryGridItemsFeature.inc.php';
+    if ($templatePath === 'lib/pkp/templates/controllers/grid/gridRow.tpl') {
+        $args[0] = 'plugins/generic/issuegridlock/templates/controllers/grid/gridRow.tpl';
     }
-    return false;
+    return true;
 }
   
 	public function getDisplayName() {
