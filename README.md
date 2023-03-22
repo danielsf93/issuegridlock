@@ -1,9 +1,7 @@
 # issuegridlock
 
-Plugin genérico.
-Para utilizar acesse “edições > edições anteriores > editar > ordenar”
+/plugins/generic/issuegridlock/
 
-![image](https://user-images.githubusercontent.com/114300053/222162102-8e69a57e-8dc2-47e7-b895-dd700140c526.png)
+Plugin genérico para evitar o reordenamento de seções nas configurações de edições. O plugin permite que a ordem dos artigos dentro das seções seja modificada. 
 
-#problema a resolver dentro do arquivo principal onde há hookregistry
-
+![gimp03](https://user-images.githubusercontent.com/114300053/226921479-8e0a3849-b47d-4920-b76b-5759db805811.png)
