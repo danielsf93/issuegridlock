@@ -19,7 +19,7 @@
 
 {assign var="row_class" value="gridRow"}
 {if is_a($row, 'GridCategoryRow')}
-	{assign var="row_class" value=$row_class|cat:' category'}
+	{assign var="row_class" value=$row_class|cat:' galley'}
 	{if !$row->hasFlag('gridRowStyle')}
 		{assign var="row_class" value=$row_class|cat:' default_category_style'}
 	{/if}
